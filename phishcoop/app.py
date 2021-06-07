@@ -55,5 +55,5 @@ def make_prediction():
         
         
 if __name__ == '__main__':
-    classifier = joblib.load('rf_final.pkl')
+    classifier = joblib.load('rf_final1.pkl')
     app.run()
